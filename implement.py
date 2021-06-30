@@ -46,5 +46,17 @@ Functions.sum_natural(5)
 ----------- Mean of a given list -----------
 mean = Functions.myMean([5, 10, 15])
 print(mean)
+
+----------- Change the string -----------
+s = "Python"
+Functions.string(s)
+
+---------- Change a tuple -----------------
+marks = (54, 62, 79, 86, 35)
+print("Initial tuple:", marks)
+Functions.change_tup(marks)
+print("Final tuple:", marks)
 '''
+
+
 
