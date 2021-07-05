@@ -70,3 +70,23 @@ def change_tup(tu):
             tu += (i,)
 
     print("In the function:", tu)
+
+
+# volume of a cuboid
+def vol_cub(l=3, b=6, h=20):
+    print(l, b, h)
+    return l * b * h
+
+
+# name of a person
+def full_name(first, last):
+    print(first, last)
+
+
+def globe_value(x, y):
+    global a
+    x, y = y, x
+    b = 30
+    c = b + b
+    print(a, c, x, y)
+

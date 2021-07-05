@@ -56,7 +56,21 @@ marks = (54, 62, 79, 86, 35)
 print("Initial tuple:", marks)
 Functions.change_tup(marks)
 print("Final tuple:", marks)
+
+--------- Volume of a cuboid --------
+v1 = Functions.vol_cub(2, 4, 5)
+v2 = Functions.vol_cub(2, 4)
+v3 = Functions.vol_cub(2)
+v4 = Functions.vol_cub()
+
+------------ Full name -------------
+f = "Prithvi"
+l = "Sathish"
+Functions.full_name(f, l)
+
+-------- Using global variables ---------
+a, b, x, y = 1, 2, 3, 4
+globe_value(50, 100)
+print(a, b, x, y)
 '''
-
-
 
