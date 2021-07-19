@@ -1,0 +1,1 @@
+print("number of characters in the file: ", len(open(input("Enter the file name: "), "r").read()))
