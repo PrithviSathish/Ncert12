@@ -1,8 +1,8 @@
 # Counting all characters in file
-# print("number of characters in the file: ", len(open(input("Enter the file name: "), "r").read()))
+print("number of characters in the file: ", len(open(input("Enter the file name: "), "r").read()))
 
 # Alternate method - proposed by Abinav
-# print("number of characters in the file: ", open(input("Enter the file name: "), "a").tell())
+print("number of characters in the file: ", open(input("Enter the file name: "), "a").tell())
 
 # counting induvidual characters
 f = open(input("Enter the file name: "), 'r')
